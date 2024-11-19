@@ -45,6 +45,24 @@ public class OO1_FOR {
         }
         System.out.println(" ");
 
+
+        /*
+
+        For each  loop --> enhanced for loop
+
+        for (type of var : collection){
+            body
+        }
+
+        */
+        System.out.println("For each loop");
+        int [] numbers = {1,2,3,4,5};
+        for (int num : numbers){
+            System.out.print(num + " ");
+        }
+
+
+
     }
 
 }
@@ -60,4 +78,9 @@ print even
 2 4 6 8 10
 
 print rerverse
-10 9 8 7 6 5 4 3 2 1 */
+10 9 8 7 6 5 4 3 2 1 
+
+For each loop
+1 2 3 4 5
+
+*/
