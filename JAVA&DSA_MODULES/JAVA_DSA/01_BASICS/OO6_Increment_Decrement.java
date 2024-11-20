@@ -1,4 +1,4 @@
-public class OO6_POST_PRE_INC_DEC {
+public class OO6_Increment_Decrement {
     public static void main(String[] args) {
         System.out.println("POST / PRE --> Increment / Decrement");
 
