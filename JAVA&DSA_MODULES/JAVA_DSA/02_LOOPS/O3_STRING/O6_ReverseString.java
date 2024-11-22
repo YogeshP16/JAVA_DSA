@@ -3,6 +3,8 @@ package O3_STRING;
 public class O6_ReverseString {
     public static void main(String[] args) {
 
+        // reverse String
+
         String str ="hello";
         String rev ="";
         
@@ -10,7 +12,7 @@ public class O6_ReverseString {
             rev += str.charAt(i);
 
         }
-        System.out.println(rev);
+        System.out.println(rev); // olleh
         
     }
     
