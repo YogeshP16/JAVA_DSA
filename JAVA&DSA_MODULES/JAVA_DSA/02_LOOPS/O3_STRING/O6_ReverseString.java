@@ -13,7 +13,16 @@ public class O6_ReverseString {
 
         }
         System.out.println(rev); // olleh
+
+
+        System.out.println();
+
+        // using String BUilder
         
+        StringBuilder sb = new StringBuilder(str);
+        String reverse = sb.reverse().toString();
+        System.out.println(reverse);
+
     }
     
     
