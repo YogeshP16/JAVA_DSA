@@ -16,13 +16,26 @@ Input: 12345 → Output: 5 digits
 public class O2_CountDigits {
     public static void main(String[] args) {
         int n = 1234434;
-        int count =0;
-        while(n > 0){
-            //int lastdigit = n%10;
-            count++;
-            n/=10;
-        }
-        System.out.println(count);
-    }
 
+        // Extract digits
+        System.out.print("Extracted digits (in reverse order): ");
+        while (n > 0) {
+            int lastDigit = n % 10;
+            System.out.print(lastDigit + " ");  // Extract digits in reverse order
+            n /= 10;
+        }
+        System.out.println();
+
+        // Count digits
+        int num = 234234234;
+        int count = 0;
+
+        while (num > 0) {
+            int rem = num % 10; // Extract last digit (not used here, but optional)
+            count++;            // Increment count
+            num /= 10;          // Remove the last digit
+        }
+
+        System.out.println("Total number of digits: " + count);
+    }
 }

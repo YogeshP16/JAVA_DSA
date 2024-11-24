@@ -28,13 +28,7 @@ public class O3_ReverseNumber {
 
         System.out.println();
 
-        String str = "helllo";
-        String reverse = "";
-        for(int i = str.length()-1; i>=0; i--){
-            reverse += str.charAt(i);
-        }
-        System.out.println(reverse); //ollleh
-        
+        int m=-123;
 
     }
 
