@@ -1,4 +1,4 @@
-package O3_STRING;
+package O2_BASICS;
 
 public class O7_StringPalindrome {
     public static void main(String[] args) {

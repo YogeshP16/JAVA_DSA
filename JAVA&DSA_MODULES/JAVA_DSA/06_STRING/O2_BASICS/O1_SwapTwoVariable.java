@@ -1,4 +1,4 @@
-package O3_STRING;
+package O2_BASICS;
 
 public class O1_SwapTwoVariable {
     public static void main(String[] args) {
