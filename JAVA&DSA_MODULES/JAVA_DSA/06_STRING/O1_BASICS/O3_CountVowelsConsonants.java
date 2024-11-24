@@ -1,4 +1,4 @@
-package O2_BASICS;
+package O1_BASICS;
 
 public class O3_CountVowelsConsonants {
 

@@ -1,4 +1,4 @@
-package O2_BASICS;
+package O1_BASICS;
 
 public class O8_CharacterOccurrence {
     public static void main(String[] args) {

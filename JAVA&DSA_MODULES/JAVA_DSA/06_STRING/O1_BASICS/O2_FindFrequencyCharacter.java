@@ -1,4 +1,4 @@
-package O2_BASICS;
+package O1_BASICS;
 
 /*
  * Key concept: Count the frequency of each character in a given string by utilizing an array to map characters to their ASCII values.
